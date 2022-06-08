@@ -8,7 +8,7 @@ export default function Sidebar() {
             <h2 className="heading-3 my-4">Contact</h2>
             <ul className='social_menu'>
 
-                <Link href="tel:">
+                <Link href="tel:000000000">
                     <a target="_blank" rel="noopener noreferrer">
                         <li>
                             <div className="icon"><AiOutlinePhone /></div>
@@ -26,7 +26,7 @@ export default function Sidebar() {
                     </a>
                 </Link>
 
-                <Link href="">
+                <Link href="https://www.google.nl/maps/">
                     <a target="_blank" rel="noopener noreferrer">
                         <li>
                             <div className="icon"><FaMapMarkerAlt /></div>

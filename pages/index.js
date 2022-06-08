@@ -46,13 +46,13 @@ export default function Home({ posts }) {
         <div className="container">
           <div className="row align-items-center gx-5">
 
-            <div className="col-12 col-lg-8 col-xl-8 col-xxl-5 p-5 m-auto">
+            <div className="col-12 col-lg-8 col-xl-8 col-xxl-5 p-3 p-lg-5 m-auto">
               <h1 className="heading-2">OVER ONS</h1>
               <p>Welkom op deze website. De tekst die je hier leest is slechts een demo tekst. Deze is bedoeld om de website op te vullen. Uiteraard zal hier uw eigen tekst komen te staan.
               </p>
             </div>
 
-            <div className="col-12 col-lg-8 col-xl-8 col-xxl-7  m-auto">
+            <div className="col-12 col-lg-8 col-xl-8 col-xxl-7 m-auto">
 
               <div className='VideoPlayer'>
                 <ReactPlayer
@@ -92,14 +92,9 @@ export default function Home({ posts }) {
               <p>Als opvul tekst wordt ook vaak Lorem ipsum gebruikt. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren 60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.</p>
             </div>
             <div className="col-12 col-md-8 col-lg-5 m-auto">
-              <Image
-                src={smaak_beleving}
-                alt="Coffee"
-                width="1080px"
-                height="720px"
-                layout="intrinsic"
-                className='border'
-              />
+              <div className='border'>
+                <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${smaak_beleving.src} )`, width: "100%", height: "450px" }}></div>
+              </div>
             </div>
           </div>
         </div>
@@ -113,14 +108,9 @@ export default function Home({ posts }) {
         <div className="container">
           <div className="row align-items-center gx-5">
             <div className="col-12 col-md-8 col-lg-6 m-auto">
-              <Image
-                src={tijd_voor_koffie}
-                alt="More Coffee"
-                width="1080px"
-                height="720px"
-                layout="intrinsic"
-                className='border'
-              />
+              <div className='border'>
+                <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${tijd_voor_koffie.src} )`, width: "100%", height: "450px" }}></div>
+              </div>
             </div>
             <div className="p-4 col-12 col-md-8 m-auto col-lg-6">
               <h2 className="heading-2">Tijd voor Koffie?</h2>
@@ -141,31 +131,13 @@ export default function Home({ posts }) {
             <h2 className="heading-2 pt-5 text-center text-uppercase">Onze smaken</h2>
             <h5 className='text-center'>Keuze uit drie verschillende blends.</h5>
             <div className="col-12 col-md-4 col-lg-4 m-auto">
-              <Image
-                src={coffee_blend_01}
-                alt="Coffee Blend A"
-                width="100%"
-                height="100%"
-                layout="responsive"
-              />
+              <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${coffee_blend_01.src} )`, width: "100%", height: "450px" }}></div>
             </div>
             <div className="col-12 col-md-4 col-lg-4 m-auto">
-              <Image
-                src={coffee_blend_02}
-                alt="Coffee Blend B"
-                width="100%"
-                height="100%"
-                layout="responsive"
-              />
+              <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${coffee_blend_02.src} )`, width: "100%", height: "450px" }}></div>
             </div>
             <div className="col-12 col-md-4 col-lg-4 m-auto">
-              <Image
-                src={coffee_blend_03}
-                alt="Coffee Blend C"
-                width="100%"
-                height="100%"
-                layout="responsive"
-              />
+              <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${coffee_blend_03.src} )`, width: "100%", height: "450px" }}></div>
             </div>
           </div>
         </div>

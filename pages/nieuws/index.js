@@ -24,7 +24,7 @@ export default function Index({ posts }) {
             <Head>
                 <title>CoffeeCraft - Nieuws</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta name="description" content="Nieuws pagina Coffee Craft" /> 
+                <meta name="description" content="Nieuws pagina Coffee Craft" />
             </Head>
             <HeroSmall headertitle={setHeadertitle} />
             <section className="bg-white">
@@ -39,21 +39,17 @@ export default function Index({ posts }) {
                                         <Link href={`/nieuws/${post.Slug}`}>
                                             <div className="row">
                                                 <h3>{post.Title}</h3>
-                                                <div className="col-4">
-                                                    <Image className='blog_image'
-                                                        alt="{post.Title}"
-                                                        src={post.Image}
-                                                        width="480px"
-                                                        height="320px"
-                                                        objectFit='contain' />
+                                                <div className="col-12 col-md-6 col-lg-4"> 
+                                                    <div className='border'>
+                                                        <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${post.Image} )`, width: "100%", height: "220px" }}></div>
+                                                    </div> 
                                                 </div>
-                                                <div className="col-8">
+                                                <div className="col-12 col-md-6 col-lg-8">
                                                     <div className="pb-2" dangerouslySetInnerHTML={{ __html: post.Excerpt + "..." }}></div>
                                                     <Link href={`/nieuws/${post.Slug}`}><a className='blog_item_link'>Lees meer <FaArrowRight /></a></Link>
                                                 </div>
                                             </div>
-                                        </Link>
-                                        {/* <div dangerouslySetInnerHTML={{ __html: post.Content }}></div> */}
+                                        </Link> 
                                     </div>
                                 ))}
                             </div>

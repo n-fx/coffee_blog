@@ -13,30 +13,35 @@
 }
 
 @media only screen and (max-width: 1400px) {
-
     .rellax_01 {
         left: -10px;
     }
-
     .rellax_02 {
         left: -20px;
     }
-
-
     .hero {
         padding: 11em 0em 6em 0em;
     }
-
     .hero h1 {
         font-size: 5rem;
         line-height: 5rem;
         border: 16px solid rgba(255, 255, 255, 0.8);
         max-width: 500px;
     }
-
     .history_img {
         margin-bottom: 10px;
         border: 0px solid rgba(209, 128, 73, 0.1);
+    }
+    .heading-1 {
+        font-size: 3rem;
+    }
+
+    .heading-2 {
+        font-size: 2rem;
+    }
+
+    .heading-3 {
+        font-size: 1.9rem;
     }
 }
 
@@ -84,6 +89,19 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .hero {
+        padding: 11em 0em 6em 0em;
+    }
+    .hero h1 {
+        margin: 0 auto;
+        font-size: 3rem;
+        font-weight: 800;
+        color: #d18049;
+        line-height: 4rem;
+        border: 12px solid rgba(255, 255, 255, 0.8);
+        max-width: 300px;
+    }
+
     ul.footer_menu li {
         display: block;
         padding-right: 0px;
@@ -92,7 +110,47 @@
     }
 
     .VideoPlayer {
-        height: 300px;
+        height: 250px;
         padding: 0;
+    }
+
+    .heading-1 {
+        font-size: 2rem;
+    }
+
+    .heading-2 {
+        font-size: 1.4rem;
+    }
+
+    .heading-3 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        padding: 3em 1em 3em 1em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hero_small {
+        position: relative;
+        text-align: center;
+        background-color: #222120;
+        padding: 8em 1em 3em 1em;
+        text-align: center;
+    }
+    .hero_small h1 {
+        font-size: 3rem;
+    }
+
+    .menu-icon-close { 
+        display: flex;
+        width: 45px;
+        height: 45px; 
+    }
+
+    .blog_image_full {
+        height: 320px;
     }
 }

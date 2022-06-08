@@ -34,7 +34,7 @@ const Contact = () => {
     return (
         <>
             <Head>
-                <title>CoffeeCraft - Contact</title> 
+                <title>CoffeeCraft - Contact</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="description" content="Contact pagina Coffee Craft" />
             </Head>
@@ -63,11 +63,11 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="col-12 col-lg-6 mt-5">
-                            <Image
-                                src={contact_img}
-                                alt="Contact Coffee Craft"
-                            /> 
+                        <div className="col-12 col-lg-6 mt-3">
+
+                            <div className='border'>
+                                <div className="img-fluid bg_img" style={{ backgroundImage: `url( ${contact_img.src} )`, width: "100%", height: "450px" }}></div>
+                            </div>
                         </div>
 
                     </div>

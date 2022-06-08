@@ -10,36 +10,49 @@ export default function Footer() {
                     <div className="col-md-4 mb-md-0 mb-4 d-flex">
                         <div className="con con-1 w-100 py-3 py-lg-5 border">
                             <div className="con-info w-100 text-center">
-                                <div className="icon d-flex align-items-center justify-content-center">
-                                    <AiOutlinePhone />
-                                </div>
-                                <div className="text p-4">
-                                    <span>(+00) 1234 5678</span>
-                                </div>
+                                <Link href="tel:000000000">
+                                    <a target="_blank" rel="noopener noreferrer">
+                                        <div className="icon d-flex align-items-center justify-content-center">
+                                            <AiOutlinePhone />
+                                        </div>
+                                        <div className="text p-4">
+                                            <span>(+00) 1234 5678</span>
+                                        </div>
+                                    </a>
+                                </Link>
+
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mb-md-0 mb-4 d-flex">
                         <div className="con con-2 w-100 py-3 py-lg-5 border">
                             <div className="con-info w-100 text-center">
-                                <div className="icon d-flex align-items-center justify-content-center">
-                                    <AiOutlineMail />
-                                </div>
-                                <div className="text p-4">
-                                    <span>info@ngmedia.nl</span>
-                                </div>
+                                <Link href="mailto:info@ngmedia.nl">
+                                    <a target="_blank" rel="noopener noreferrer">
+                                        <div className="icon d-flex align-items-center justify-content-center">
+                                            <AiOutlineMail />
+                                        </div>
+                                        <div className="text p-4">
+                                            <span>info@ngmedia.nl</span>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-4 mb-md-0 mb-4 d-flex ">
                         <div className="con con-3 w-100 py-3 py-lg-5 border">
                             <div className="con-info w-100 text-center">
-                                <div className="icon d-flex align-items-center justify-content-center">
-                                    <FaMapMarkerAlt />
-                                </div>
-                                <div className="text p-4">
-                                    <span>Zomaareenstraat, 7555 AB, Hengelo</span>
-                                </div>
+                                <Link href="https://www.google.nl/maps/">
+                                    <a target="_blank" rel="noopener noreferrer">
+                                        <div className="icon d-flex align-items-center justify-content-center">
+                                            <FaMapMarkerAlt />
+                                        </div>
+                                        <div className="text p-4">
+                                            <span>Zomaareenstraat, 7555 AB, Hengelo</span>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -78,27 +91,27 @@ export default function Footer() {
                         <div className="col-md col-lg-4 text-center text-lg-end">
                             <ul className="ftco-footer-social p-0">
                                 <Link href="https://www.facebook.com/">
-                                    <li className="ftco-animate">
-                                        <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                    <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                        <li className="ftco-animate">
                                             <FaFacebookF />
-                                        </a>
-                                    </li>
+                                        </li>
+                                    </a>
                                 </Link>
 
                                 <Link href="https://twitter.com/">
-                                    <li className="ftco-animate">
-                                        <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                                    <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                                        <li className="ftco-animate">
                                             <FaTwitter />
-                                        </a>
-                                    </li>
+                                        </li>
+                                    </a>
                                 </Link>
 
                                 <Link href="https://www.instagram.com/">
-                                    <li className="ftco-animate">
-                                        <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+                                    <a target="_blank" rel="noopener noreferrer" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+                                        <li className="ftco-animate">
                                             <FaInstagram />
-                                        </a>
-                                    </li>
+                                        </li>
+                                    </a>
                                 </Link>
                             </ul>
                         </div>
