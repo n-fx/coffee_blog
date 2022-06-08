@@ -1,0 +1,52 @@
+ 
+  .contactForm { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+ 
+  .contactForm input,
+  .contactForm textarea { 
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 4px;
+  }
+
+  .contactForm label {
+    display: inline-block;
+    padding: 1em 0em 0.5em 0em;
+    font-weight: 700;
+  }
+
+  .contactForm input {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .contactForm textarea { 
+    width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    padding: 12px;
+  }
+
+   .submit_btn {
+    width: 250px;
+    display: block;
+    margin-top: 12px;
+    background-color: transparent;
+    padding: 4px; 
+    border: 2px solid rgb(139, 139, 139);
+  }
+
+  .submit_btn input {
+    background-color: transparent;
+    border: none;
+    color: $dark;
+    font-weight: 700;
+  }
+
+  .submit_btn:hover input {
+    background-color: $white;
+    color: $base-color;
+  }

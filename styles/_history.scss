@@ -1,0 +1,46 @@
+
+.history_img { 
+    width: 100%;
+    height: 390px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 0px; 
+    border: 20px solid $base-color-rgba;
+  }
+  
+  .history_img_full_bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    overflow: hidden;
+    opacity: 0.1; 
+  }
+  
+  .history .swiper-button-prev {
+   left: 50px;
+  }
+  
+  .history .swiper-button-next {
+    right: 50px;
+   }
+   
+  
+  .history_container {
+    z-index: 9;
+    position: relative;
+    padding: 12em 0em 5em 0em;
+    overflow: hidden;
+  }
+  
+  .history_title {
+   position: absolute;
+   top: 70px;
+  }

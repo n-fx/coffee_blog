@@ -1,0 +1,87 @@
+.bg_01 {
+    background-image: url('../public/images/bg_land.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg_02 {
+    background-image: url('../public/images/coffee_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: $bg-light !important;
+}
+
+.bg-light-2 {
+    background-color: darken($bg-light, 4) !important;
+}
+
+.bg-dark {
+    background-color: $bg-dark !important;
+}
+ 
+.rellax_01 {
+    position: absolute;
+    background-image: url('../public/images/rellax_coffee_01.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 170px;
+    height: 300px;
+    display: block;
+    left: 40px;
+    margin-top: 350px;
+    z-index: 1;
+}
+
+.rellax_02 {
+    position: absolute;
+    background-image: url('../public/images/rellax_coffee_02.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 170px;
+    height: 300px;
+    display: block;
+    left: 40px;
+    margin-top: 350px;
+    z-index: 1;
+}
+
+.rellax_03 {
+    position: absolute;
+    background-image: url('../public/images/rellax_coffee_01.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 170px;
+    height: 300px;
+    display: block;
+    right: 40px;
+    margin-top: 650px;
+    z-index: 1;
+}
+
+.rellax_04 {
+    position: absolute;
+    background-image: url('../public/images/rellax_coffee_02.png');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 170px;
+    height: 300px;
+    display: block;
+    right: 40px;
+    margin-top: 650px;
+    z-index: 1;
+}

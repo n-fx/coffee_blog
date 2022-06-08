@@ -1,0 +1,86 @@
+@import "variables.scss";
+@import "navigation.scss";
+@import "blog.scss";
+@import "footer.scss";
+@import "swiperoverrides.scss";
+@import "hero.scss";
+@import "typography.scss";
+@import "background.scss";
+@import "history.scss";
+@import "video.scss";
+@import "contactform.scss";
+ 
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f7f5f2;
+  color: rgb(66, 60, 60);
+}
+
+main {
+  max-width: 2600px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 6em 1em 6em 1em;
+  height: auto;
+  position: relative;
+}
+
+.border {
+  border: $border-width solid $border-color  !important;
+}
+
+.return {
+  color: $base-color;
+  padding: 3em;
+  font-size: 1.7em;
+}
+
+.return:hover {
+  color: #fff;
+}
+
+.svg-content {
+  height: 101px;
+  width: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+
+} 
+
+ul.social_menu {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul.social_menu li {
+  padding: 1em 0em 0em 0em;
+  font-size: 1em;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+ul.social_menu li span {
+  padding: 0.7em;
+  display: inline-block;
+}
+
+ul.social_menu li .icon {
+  font-size: 1.6em;
+  display: inline-block;
+}
+
+ul.social_menu li:hover {
+  opacity: 0.8;
+}
+
+ul.social_menu li:hover span {
+  color: $base-color;
+}
+
+@import "responsive.scss";

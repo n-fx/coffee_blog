@@ -1,0 +1,52 @@
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #222120;
+    padding: 15em 1em 9em 1em;
+    text-align: center; 
+}
+
+.hero_small {
+    position: relative;
+    text-align: center;
+    background-color: #222120;
+    padding: 11em 1em 7em 1em;
+    text-align: center;  
+}
+
+.hero h1 {
+    margin: 0 auto;
+    font-size: 7rem;
+    font-weight: 800;
+    max-width: 700px; 
+    color: $base-color;
+    line-height: 6rem; 
+    pointer-events: none;
+    border: 20px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 0.7em 0.1em 0.7em 0.1em;
+}
+
+.hero h1 span {
+    color: #fff;
+}
+
+.hero h1 span.highlight {
+    color: rgb(94 155 127);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    padding: 0.1em 0em 3em 0em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.video_container {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+ }
+ .video_container video {
+     
+ }
